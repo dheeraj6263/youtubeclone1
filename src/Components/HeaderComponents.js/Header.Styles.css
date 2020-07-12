@@ -1,0 +1,44 @@
+.headerBlock  article{
+    display: flex;
+    background-color: #f9f9f9;
+    height: 56px;
+    padding: 0 16px;
+}
+
+
+.logo{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.logo>button{
+    background-color: #f9f9f9;
+    border: none;
+}
+
+.logo>a{
+    margin-left: 25px;
+}
+.logo img{
+    width: 85px;
+    height: 27px;
+}
+
+.search{
+    flex:2;
+    display: flex;
+    align-items: center;
+}
+
+.menuBlock{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.menuBlock a{
+    padding: 0px 10px;
+  }
+  .menuBlock a:nth-child(4) {
+      border: 1px solid  blue;
+  }

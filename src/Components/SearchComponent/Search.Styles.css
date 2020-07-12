@@ -1,0 +1,14 @@
+.searchBlock{
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+.searchBlock form{
+    width: 90%;
+}
+.searchBlock form>input{
+    width:100%;
+}
+.searchBlock button{
+    width:7%;
+}

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+    background-color : #eee;
+    font-family: 'Roboto', sans-serif;;
+}
+#data-list  article {
+    display: flex;
+    justify-content: space-between;
+}
+.player_Block {
+  flex-basis: 69%;
+}
+.list_block {
+  flex-basis: 29%;
+} 
+iframe {
+    width: 100% !important;
+    height: 500px  !important;
+}
+.player_Block  h1{
+font-size: 20px;
+padding: 20px 0;
+}
+.player_Block p {
+    font-size: 14px;
+    padding: 0px 0px 40px;
+    border-bottom: 1px solid #ccc;
+}
+
